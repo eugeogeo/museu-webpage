@@ -1,27 +1,30 @@
-# React + TypeScript + Vite
+# Museu we-page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o projeto 
 
-Currently, two official plugins are available:
+Projeto de extensão da UTFPR - Campus Campo Mourão em parceria com o Museu Municipal Deolindo Mendes Pereira.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Como rodar
+ ```
+   git clone https://github.com/eugeogeo/museu-webpage
 
-## Expanding the ESLint configuration
+   cd museu-webpage
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+   yarn 
 
-- Configure the top-level `parserOptions` property like this:
+   yarn dev
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+ ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Tecnologias utilizadas
+
+- [NodeJS]()
+- [ReactJS]()
+- [Yup]()
+
+> Veja o arquivo package.json
+
+## Protótipos e referências
+
+- [Figma]()
+- [Documentação]()
